@@ -3,6 +3,7 @@
 
 ##Github单个文件夹下载
 要下载单个文件或文件夹可能比较不方便，下面是找到的几种方法：
+
 * Raw按钮
   在Raw按钮上右键点击文件另存为，可以保存文件。
 
@@ -13,10 +14,8 @@
   Windows:[TortoiseSVN](https://tortoisesvn.net/downloads.html)
   Ubuntu:??
 
-  将仓库名和下一个文件夹名之间的分支信息**`tree/master`**改为**`trunk`**。
-
-  如`https://github.com/probonopd/linuxdeployqt/`**`tree/master`**`/tools/linuxdeployqt`
-
-  改为`https://github.com/probonopd/linuxdeployqt/`**`trunk`**`/tools/linuxdeployqt`
+  将仓库名和下一个文件夹名之间的分支信息`tree/master`改为`trunk`。
+  如`https://github.com/probonopd/linuxdeployqt/tree/master/tools/linuxdeployqt`
+  改为`https://github.com/probonopd/linuxdeployqt/trunk/tools/linuxdeployqt`
 
 
