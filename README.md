@@ -11,9 +11,12 @@
 
 * SVN
   Windows:[TortoiseSVN](https://tortoisesvn.net/downloads.html)
-  Ubuntu:???
+  Ubuntu:??
+
   将仓库名和下一个文件夹名之间的分支信息**`tree/master`**改为**`trunk`**。
+
   如`https://github.com/probonopd/linuxdeployqt/`**`tree/master`**`/tools/linuxdeployqt`
+
   改为`https://github.com/probonopd/linuxdeployqt/`**`trunk`**`/tools/linuxdeployqt`
 
 
