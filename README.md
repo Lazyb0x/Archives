@@ -6,12 +6,15 @@
 要下载单个文件或文件夹可能比较不方便，下面是找到的几种方法：
 
 * Raw按钮
+
   在Raw按钮上右键点击文件另存为，可以保存文件。
 
 * DownGit
+
   [这里](https://minhaskamal.github.io/DownGit/#/home)，可以直接下载打包成zip的文件夹，但总是抽风。
 
 * SVN
+
   Windows:[TortoiseSVN](https://tortoisesvn.net/downloads.html)
   Ubuntu:??
 
