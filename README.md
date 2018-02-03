@@ -17,7 +17,7 @@
 
   **Windows** : TortoiseSVN [官网下载](https://tortoisesvn.net/downloads.html) [百度下载](http://rj.baidu.com/search/index/?kw=TortoiseSVN)
 
-  **Ubuntu** : Subversion <a href="apt://subversion">点我安装</a>
+  **Ubuntu** : Subversion <a href="https://Lazyb0x.github.io/jump/apt-subversion" target="_blank">点我安装</a>
 
   或者使用命令:
   ```shell
