@@ -37,6 +37,50 @@
 
 ## .md 文件超链接
 
-[测试apt](apt://gparted)
+在 GitHub 里面解析 `[名字](链接)`时并不会解析所有协议，例如 `[gparted](apt://gparted)` 和 `[zh_groups](tg://resolve?domain=zh_groups_bot)` 这样的写法并不会被解析成超链接。
 
-[测试tg](tg://resolve?domain=zh_groups)
+解决办法：利用 GitPages 可以展示 HTML 页面，先把链接地址改成 GitPages 中的页面，再由该页面通过 Js 的 `window.location` 跳转。
+
+```html
+<script language="javascript" type="text/javascript">
+function GetQueryString(name) {
+	var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+	var r = window.location.search.substr(1).match(reg);
+	if (r != null)
+		return unescape(r[2]);
+	return null;
+}
+
+var myurl=GetQueryString("url");
+if(myurl !=null && myurl.toString().length>1){
+	window.location.href=GetQueryString("url");
+}
+else{
+	document.write("无 url 参数。")
+}
+</script>
+```
+
+原生：
+
+```markdown
+[CSGO，启动！](steam://rungame/730/76561202255233023/)
+```
+
+[CSGO，启动！](steam://rungame/730/76561202255233023/)
+
+跳转：
+
+```markdown
+[CSGO，启动！](https://Lazyb0x.github.io/jump?url=steam://rungame/730/76561202255233023/)
+```
+
+[CSGO，启动！](https://Lazyb0x.github.io/jump?url=steam://rungame/730/76561202255233023/)
+
+HTML 格式
+
+```html
+<a href="https://Lazyb0x.github.io/jump?url=steam://rungame/730/76561202255233023/" target="_blank">CSGO，启动！</a>
+```
+
+<a href="https://Lazyb0x.github.io/jump?url=steam://rungame/730/76561202255233023/" target="_blank">CSGO，启动！</a>
