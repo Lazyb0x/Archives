@@ -76,11 +76,3 @@ else{
 ```
 
 [CSGO，启动！](https://Lazyb0x.github.io/jump?url=steam://rungame/730/76561202255233023/)
-
-HTML 格式
-
-```html
-<a href="https://Lazyb0x.github.io/jump?url=steam://rungame/730/76561202255233023/" target="_blank">CSGO，启动！</a>
-```
-
-<a href="https://Lazyb0x.github.io/jump?url=steam://rungame/730/76561202255233023/" target="_blank">CSGO，启动！</a>
