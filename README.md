@@ -34,3 +34,9 @@
   Windows在文件浏览器下右键 -> SVN Checkout，填入链接下载。
 
   Subversion使用命令`svn co [链接]`。
+
+## .md 文件超链接
+
+[测试apt](apt://gparted)
+
+[测试tg](tg://resolve?domain=zh_groups)
